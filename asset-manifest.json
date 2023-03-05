@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cae-montserrat/static/css/main.f9460b00.css",
+    "main.js": "/cae-montserrat/static/js/main.2c5fc869.js",
+    "static/js/787.bdcc4e2c.chunk.js": "/cae-montserrat/static/js/787.bdcc4e2c.chunk.js",
+    "static/media/logo-cae-montserrat.jpeg": "/cae-montserrat/static/media/logo-cae-montserrat.e259fc1e621d0353bb52.jpeg",
+    "index.html": "/cae-montserrat/index.html",
+    "main.f9460b00.css.map": "/cae-montserrat/static/css/main.f9460b00.css.map",
+    "main.2c5fc869.js.map": "/cae-montserrat/static/js/main.2c5fc869.js.map",
+    "787.bdcc4e2c.chunk.js.map": "/cae-montserrat/static/js/787.bdcc4e2c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9460b00.css",
+    "static/js/main.2c5fc869.js"
+  ]
+}
