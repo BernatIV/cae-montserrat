@@ -1,8 +1,11 @@
 import './App.css';
 import Dashboard from "./dashboard/Dashboard";
 import NavBar from "./nav-bar/NavBar";
-import { createTheme } from '@material-ui/core/styles';
+import {createTheme} from '@material-ui/core/styles';
 import {ThemeProvider} from "@mui/material/styles";
+import {useState} from "react";
+import Assajos from "./assajos/Assajos";
+import Repertori from "./repertori/Repertori";
 
 // TODO
 // - App Bar
@@ -16,22 +19,31 @@ import {ThemeProvider} from "@mui/material/styles";
  */
 
 const theme = createTheme({
-  palette: {
-    primary: {
-      main: '#105C77',
+    palette: {
+        primary: {
+            // main: '#105C77',
+            main: '#1c2944',
+        },
     },
-  },
 });
 
 function App() {
-  return (
-      <ThemeProvider theme={theme}>
-        <div className="app-container">
-          <NavBar></NavBar>
-          <Dashboard></Dashboard>
-        </div>
-      </ThemeProvider>
-  )
+    const [currentTab, setCurrentTab] = useState('Dashboard');
+
+    const changeTabHandler = (tabId) => {
+        setCurrentTab(tabId)
+    }
+
+    return (
+        <ThemeProvider theme={theme}>
+            <div className="app-container">
+                <NavBar onChangeTab={changeTabHandler}></NavBar>
+                {currentTab === 'Dashboard' && <Dashboard></Dashboard>}
+                {currentTab === 'Assajos' && <Assajos></Assajos>}
+                {currentTab === 'Repertori' && <Repertori></Repertori>}
+            </div>
+        </ThemeProvider>
+    )
 }
 
 export default App;

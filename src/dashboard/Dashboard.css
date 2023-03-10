@@ -2,3 +2,38 @@
     margin: 32px;
 }
 
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    z-index: 1;
+}
+
+@media (min-width: 1012px) {
+    .title-large-screen {
+        font-size: 65px !important;
+    }
+}
+
+.image-background {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: white;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    color: #c5c5c5;
+    font-size: 24px;
+    text-align: left;
+    width: 80%;
+    /*margin-left: 10%;*/
+}
