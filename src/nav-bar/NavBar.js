@@ -14,6 +14,7 @@ import {
 import MenuIcon from '@mui/icons-material/Menu';
 // import Logo from '../logo-cae-montserrat.jpeg';
 import Logo from '../logo-cae-montserrat_white.svg';
+// import Logo from '../logo-cae-montserrat_nomes_logo.svg';
 import {useState} from "react";
 
 const pages = ['Repertori', 'Assajos', 'Formulari'];
@@ -37,14 +38,13 @@ const NavBar = (props) => {
 
         const pageToGo = pages.find(page => page === event.target.textContent);
 
+        console.log('pageToGo', pageToGo);
         if (pageToGo === 'Formulari') {
             window.open("https://docs.google.com/forms/d/e/1FAIpQLSdpPIgZteiIjSit1B5jRcfALzFNqRcYxiKL2x84tAYi5-yjbg/viewform",
                 "_blank");
+        } else if (pageToGo) {
+            props.onChangeTab(pageToGo);
         }
-
-        props.onChangeTab(pageToGo);
-
-
     };
 
     const handleCloseUserMenu = () => {
@@ -109,7 +109,9 @@ const NavBar = (props) => {
                     </Box>
                     {/*<AdbIcon sx={{display: {xs: 'flex', md: 'none'}, mr: 1}}/>*/}
                     <Box sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }}
-                         style={{cursor: "pointer"}}>
+                         style={{cursor: "pointer"}}
+                            onClick={handleChangeTabToDashboard}
+                    >
                         <img
                             src={Logo}
                             alt=""
@@ -146,35 +148,36 @@ const NavBar = (props) => {
                         ))}
                     </Box>
 
-                    <Box sx={{flexGrow: 0}}>
-                        <Tooltip title="Open settings">
-                            <IconButton onClick={handleOpenUserMenu} sx={{p: 0}}>
-                                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg"/>
-                            </IconButton>
-                        </Tooltip>
-                        <Menu
-                            sx={{mt: '45px'}}
-                            id="menu-appbar"
-                            anchorEl={anchorElUser}
-                            anchorOrigin={{
-                                vertical: 'top',
-                                horizontal: 'right',
-                            }}
-                            keepMounted
-                            transformOrigin={{
-                                vertical: 'top',
-                                horizontal: 'right',
-                            }}
-                            open={Boolean(anchorElUser)}
-                            onClose={handleCloseUserMenu}
-                        >
-                            {settings.map((setting) => (
-                                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                                    <Typography textAlign="center">{setting}</Typography>
-                                </MenuItem>
-                            ))}
-                        </Menu>
-                    </Box>
+                    {/*Perfil*/}
+                    {/*<Box sx={{flexGrow: 0}}>*/}
+                    {/*    <Tooltip title="Open settings">*/}
+                    {/*        <IconButton onClick={handleOpenUserMenu} sx={{p: 0}}>*/}
+                    {/*            <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg"/>*/}
+                    {/*        </IconButton>*/}
+                    {/*    </Tooltip>*/}
+                    {/*    <Menu*/}
+                    {/*        sx={{mt: '45px'}}*/}
+                    {/*        id="menu-appbar"*/}
+                    {/*        anchorEl={anchorElUser}*/}
+                    {/*        anchorOrigin={{*/}
+                    {/*            vertical: 'top',*/}
+                    {/*            horizontal: 'right',*/}
+                    {/*        }}*/}
+                    {/*        keepMounted*/}
+                    {/*        transformOrigin={{*/}
+                    {/*            vertical: 'top',*/}
+                    {/*            horizontal: 'right',*/}
+                    {/*        }}*/}
+                    {/*        open={Boolean(anchorElUser)}*/}
+                    {/*        onClose={handleCloseUserMenu}*/}
+                    {/*    >*/}
+                    {/*        {settings.map((setting) => (*/}
+                    {/*            <MenuItem key={setting} onClick={handleCloseUserMenu}>*/}
+                    {/*                <Typography textAlign="center">{setting}</Typography>*/}
+                    {/*            </MenuItem>*/}
+                    {/*        ))}*/}
+                    {/*    </Menu>*/}
+                    {/*</Box>*/}
                 </Toolbar>
             </Container>
         </AppBar>

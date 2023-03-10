@@ -8,15 +8,51 @@
 
 .position-absolute {
     position: absolute;
-    top: 55%;
-    left: 10%;
+
+    left: 0%;
     z-index: 1;
 }
 
 @media (min-width: 1012px) {
     .title-large-screen {
-        font-size: 65px !important;
+        font-size: 75px !important;
     }
+
+    .position-absolute {
+        top: 45%;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1011px)  {
+    .title-large-screen {
+        font-size: 48px !important;
+    }
+
+    .position-absolute {
+        top: 40%;
+    }
+}
+
+@media only screen and (max-width: 800px)  {
+    .title-large-screen {
+        font-size: 48px !important;
+    }
+
+    .position-absolute {
+        top: 15%;
+    }
+}
+
+.gradient {
+    background: linear-gradient(to top, #0C0A0F, transparent);
+    /* use "to bottom" for a vertical gradient */
+    /* change the hex codes to your desired colors */
+    /* you can also use rgb or hsl color values */
+    /*color: white;*/
+    /* set the text color to contrast the gradient */
+    padding-top: 100px;
+    padding-left: 5%;
+    /* add padding to show the gradient */
 }
 
 .image-background {

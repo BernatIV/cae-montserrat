@@ -12,7 +12,7 @@ const Dashboard = () => {
                 <img className="image-background" src={concert} alt="Concert 100 anys naixement P. Irineu"/>
             </div>
 
-            <div className="position-absolute">
+            <div className="position-absolute gradient">
                 <h1 className="title-large-screen">Coral d'Antics Escolans de Montserrat</h1>
                 <p>La Coral d'Antics Escolans de Montserrat celebrem enguany el 75è aniversari. Per aquest motiu farem
                     un
