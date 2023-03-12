@@ -15,12 +15,12 @@ const Dashboard = () => {
             <div className="position-absolute gradient">
                 <h1 className="title-large-screen">Coral d'Antics Escolans de Montserrat</h1>
                 <p>La Coral d'Antics Escolans de Montserrat celebrem enguany el 75è aniversari. Per aquest motiu farem
-                    un
-                    concert a la Basílica de Montserrat el pròxim 18 de juny després de la missa Conventual. <br/>
-                    Podeu consultar tant el repertori com el pla d'assajos clicant les opcions que teniu a l'esquerra, i
-                    si
-                    us
-                    hi voleu apuntar cliqueu el formulari per inscriure's.</p>
+                    un concert a la Basílica de Montserrat el pròxim 18 de juny després de la missa Conventual.
+                </p>
+                <p>
+                    Podeu consultar tant el repertori com el pla d'assajos clicant les opcions que teniu a dalt, i
+                    si us hi voleu apuntar cliqueu el formulari per inscriure's.
+                </p>
             </div>
             <div>
                 <p>

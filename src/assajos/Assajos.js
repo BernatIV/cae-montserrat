@@ -1,4 +1,5 @@
 import imgAssajos from '../assajos_img.png';
+import './Assajos.css';
 
 const Assajos = (props) => {
 
@@ -6,7 +7,7 @@ const Assajos = (props) => {
         <>
             <h1>Assajos</h1>
 
-            <img src={imgAssajos} alt=""/>
+            <img className="image-size-assajos" src={imgAssajos} alt=""/>
         </>
     );
 }

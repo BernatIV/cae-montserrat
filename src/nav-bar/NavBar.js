@@ -18,20 +18,20 @@ import Logo from '../logo-cae-montserrat_white.svg';
 import {useState} from "react";
 
 const pages = ['Repertori', 'Assajos', 'Formulari'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+// const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const NavBar = (props) => {
     const [anchorElNav, setAnchorElNav] = useState(null);
-    const [anchorElUser, setAnchorElUser] = useState(null);
+    // const [anchorElUser, setAnchorElUser] = useState(null);
 
     const handleOpenNavMenu = (event) => {
         setAnchorElNav(event.currentTarget);
         console.log('handleOpenNavMenu');
     };
-    const handleOpenUserMenu = (event) => {
-        setAnchorElUser(event.currentTarget);
-        console.log('handleOpenUserMenu');
-    };
+    // const handleOpenUserMenu = (event) => {
+    //     setAnchorElUser(event.currentTarget);
+    //     console.log('handleOpenUserMenu');
+    // };
 
     const handleCloseNavMenu = (event) => {
         setAnchorElNav(null);
@@ -47,10 +47,10 @@ const NavBar = (props) => {
         }
     };
 
-    const handleCloseUserMenu = () => {
-        setAnchorElUser(null);
-        console.log('handleCloseUserMenu');
-    };
+    // const handleCloseUserMenu = () => {
+    //     setAnchorElUser(null);
+    //     console.log('handleCloseUserMenu');
+    // };
 
     const handleChangeTabToDashboard = () => {
         props.onChangeTab('Dashboard');
@@ -102,7 +102,7 @@ const NavBar = (props) => {
                         >
                             {pages.map((page) => (
                                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                                    <Typography textAlign="center">{page}</Typography>
+                                    <Typography textAlign="center" color={'black'}>{page}</Typography>
                                 </MenuItem>
                             ))}
                         </Menu>

@@ -1,0 +1,18 @@
+
+.image-size {
+    max-width: 800px;
+}
+
+@media only screen and (min-width: 1120px) {
+    .image-size {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1119px)  {
+    .image-size {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}

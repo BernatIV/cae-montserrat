@@ -8,7 +8,8 @@ import Assajos from "./assajos/Assajos";
 import Repertori from "./repertori/Repertori";
 
 // TODO
-// - App Bar
+// - La imagte de el repertori s'ha de fer més estreta. Perq sinó fa mal els ulls.
+// - pestanya "coral" per tornar a l'inici?
 
 /*
     How to use colors throughout the app:
