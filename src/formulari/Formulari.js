@@ -7,6 +7,7 @@ const Formulari = () => {
             <a href='https://docs.google.com/forms/d/e/1FAIpQLSdpPIgZteiIjSit1B5jRcfALzFNqRcYxiKL2x84tAYi5-yjbg/viewform'
                 target='_blank'
                style={{color: 'white'}}
+               rel="noreferrer"
             >
                 https://docs.google.com/forms/d/e/1FAIpQLSdpPIgZteiIjSit1B5jRcfALzFNqRcYxiKL2x84tAYi5-yjbg/viewform
             </a>
