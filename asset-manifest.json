@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2917e16c.css",
-    "main.js": "/static/js/main.d5b36e5f.js",
+    "main.js": "/static/js/main.2365aec0.js",
     "static/js/787.bdcc4e2c.chunk.js": "/static/js/787.bdcc4e2c.chunk.js",
     "static/media/Concert 100 anys neixament P. Ireneu3.jpg": "/static/media/Concert 100 anys neixament P. Ireneu3.d7169f0e234bc62a57d0.jpg",
     "static/media/assajos_img.png": "/static/media/assajos_img.59d6e2e869321aa5f2f9.png",
@@ -42,11 +42,11 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/index.html",
     "main.2917e16c.css.map": "/static/css/main.2917e16c.css.map",
-    "main.d5b36e5f.js.map": "/static/js/main.d5b36e5f.js.map",
+    "main.2365aec0.js.map": "/static/js/main.2365aec0.js.map",
     "787.bdcc4e2c.chunk.js.map": "/static/js/787.bdcc4e2c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2917e16c.css",
-    "static/js/main.d5b36e5f.js"
+    "static/js/main.2365aec0.js"
   ]
 }
