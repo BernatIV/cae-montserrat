@@ -6,6 +6,7 @@ import {ThemeProvider} from "@mui/material/styles";
 import {useState} from "react";
 import Assajos from "./assajos/Assajos";
 import Repertori from "./repertori/Repertori";
+import Formulari from "./formulari/Formulari";
 
 // TODO
 // - La imagte de el repertori s'ha de fer més estreta. Perq sinó fa mal els ulls.
@@ -42,6 +43,7 @@ function App() {
                 {currentTab === 'Dashboard' && <Dashboard></Dashboard>}
                 {currentTab === 'Assajos' && <Assajos></Assajos>}
                 {currentTab === 'Repertori' && <Repertori></Repertori>}
+                {currentTab === 'Formulari' && <Formulari></Formulari>}
             </div>
         </ThemeProvider>
     )
