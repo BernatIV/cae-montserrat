@@ -1,18 +1,47 @@
 
-.image-size-assajos {
-    max-width: 1200px;
+.text-center {
+    text-align: center;
 }
 
-@media only screen and (min-width: 1270px) {
-    .image-size-assajos {
+.chip-size {
+    width: auto;
+    height: 80px;
+}
+
+.chip-outlined {
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 4px;
+    /*width: auto;*/
+    display: inline-block;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+@media only screen and (min-width: 1300px) {
+    .page-margin {
         margin-left: 15%;
         margin-right: 15%;
     }
+
+    .page-content-margin {
+        margin: 32px;
+    }
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 1119px)  {
-    .image-size-assajos {
+@media only screen and (min-width: 1015px) and (max-width: 1299px) {
+    .page-margin {
         margin-left: 10%;
         margin-right: 10%;
+    }
+
+    .page-content-margin {
+        margin: 32px;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1014px) {
+    .page-content-margin {
+        margin: 16px;
     }
 }

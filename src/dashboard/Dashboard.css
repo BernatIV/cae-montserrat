@@ -60,13 +60,13 @@
     height: auto;
 }
 
-h1 {
+.choir-title {
     color: white;
     text-align: left;
     font-family: 'Roboto', sans-serif;
 }
 
-p {
+.text-description {
     color: #c5c5c5;
     font-size: 24px;
     text-align: left;
