@@ -19,7 +19,7 @@ import {useState} from "react";
 
 const urlForm = 'https://docs.google.com/forms/d/e/1FAIpQLSdpPIgZteiIjSit1B5jRcfALzFNqRcYxiKL2x84tAYi5-yjbg/viewform';
 
-const pages = ['Repertori', 'Assajos', 'Formulari'];
+const pages = ['Inici', 'Repertori', 'Assajos', 'Formulari'];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const NavBar = (props) => {
@@ -38,11 +38,14 @@ const NavBar = (props) => {
     const handleCloseNavMenu = (event) => {
         setAnchorElNav(null);
 
-        const pageToGo = pages.find(page => page === event.target.textContent);
+        let pageToGo = pages.find(page => page === event.target.textContent);
 
-        console.log('pageToGo', pageToGo);
         if (pageToGo === 'Formulari') {
             window.open(urlForm, "_blank");
+        }
+
+        if (pageToGo === 'Inici') {
+            pageToGo = 'Dashboard';
         }
 
         if (pageToGo) {
