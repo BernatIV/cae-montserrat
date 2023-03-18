@@ -60,9 +60,9 @@ const Assajos = (props) => {
                                 </TableBody>
                             </Table>
                         </TableContainer>
-                        <p>Dirigiràn els assajos els antics directors, Joaquim Garrigosa, Joaquim Miranda, Jordi Boltes
+                        <p>Dirigiran els assajos els antics directors, Joaquim Garrigosa, Joaquim Miranda, Jordi Boltes
                             i Lluis Perarnau, junt amb el director actual en Guifré Canadell.</p>
-                        <h2>ASSAJOS VOLUNTARIS</h2>
+                        <h2>Assajos voluntaris</h2>
                         <p>Els membres actuals de la Coral, tenim assaig cada dimarts (no festiu) de 20:00 a 22:00 hores
                             a la parròqia de la Bonanova.</p>
                         <p>A partir del 21 de Març començarem a treballar el repertori del Concert del 75è
@@ -72,6 +72,7 @@ const Assajos = (props) => {
                     </div>
                 </Paper>
             </Box>
-        </div>);
+        </div>
+    );
 }
 export default Assajos;
