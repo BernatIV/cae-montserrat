@@ -16,13 +16,13 @@ const primerBlocRows = [
 ];
 
 const segonBlocRows = [
-    createData('El Rossinyol', 'Felix Mendelssohn (Director: Guifré Canadell)'),
+    createData('Cançó del Pelegrí', 'Antoni Nicalau (Director: Guifré Canadell)'),
     createData('Marinada', 'Antoni Pérez Moya (Director: Guifré Canadell)'),
-    createData('Oh cel blau', 'Ireneu Segarra (Director: Guifré Canadell)'),
+    createData('El Rossinyol', 'Felix Mendelssohn (Director: Guifré Canadell)'),
     createData('Himne excursionista', 'Joan Just (Director: Guifré Canadell)'),
     createData('Jovenivola', 'Lluis Millet (Director: Joaquim Miranda)'),
-    createData('Cançó del pelegrí', 'Antoni Nicolau (Director: Joaquim Garrigosa)'),
-    createData('Flors de Maig', 'Josep Anselm Clavé (Director: Guifré Canadell)'),
+    createData('L\'Emigrant', 'Amadeu Vives Roig (Director: Joaquim Garrigosa)'),
+    createData('Sota la vostra protecció', 'Ireneo Segarra (Director: Guifré Canadell)'),
 ];
 
 const Repertori = (props) => {
