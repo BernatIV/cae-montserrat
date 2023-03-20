@@ -7,22 +7,21 @@ function createData(obra, autor) {
 
 const primerBlocRows = [
     createData('Salve Montserratina', 'Anònim i Cant Gregorià (Director: Joaquim Garrigosa)'),
-    createData('Emperadriu de la ciutat joiosa', 'Llibre Vermell de Montserrat, adap. G. Odiló Planàs (Director: Guifré Canadell)'),
-    createData('Veni veni Emanuel', 'Anònim, arranjament P. Ireneu Segarra, adap. Pol Requesens (Director: Guifré Canadell)'),
-    createData('Aestimatus Sum', 'Tomas Lluis de Vitoria (Director: Guifré Canadell)'),
+    createData('Emperadriu de la ciutat joiosa', 'Llibre Vermell de Montserrat, adap. Odiló Planàs (Director: Guifré Canadell)'),
+    createData('Aestimatus Sum', 'Tomás Luis de Vitoria (Director: Guifré Canadell)'),
     createData('Ubi Caritas', 'Ola Gjeilo (Director: Guifré Canadell)'),
-    createData('Ave Maria', 'Vicente Goicoechea (Director: Lluis Perarnau)'),
+    createData('Ave Maria', 'Vicente Goicoechea (Director: Lluís Perernau)'),
     createData('Nigra Sum', 'Pau Casals (Director: Jordi Boltes)'),
 ];
 
 const segonBlocRows = [
-    createData('Cançó del Pelegrí', 'Antoni Nicalau (Director: Guifré Canadell)'),
+    createData('Cançó del Pelegrí', 'Antoni Nicolau (Director: Joaquim Garrigosa)'),
     createData('Marinada', 'Antoni Pérez Moya (Director: Guifré Canadell)'),
     createData('El Rossinyol', 'Felix Mendelssohn (Director: Guifré Canadell)'),
     createData('Himne excursionista', 'Joan Just (Director: Guifré Canadell)'),
-    createData('Jovenivola', 'Lluis Millet (Director: Joaquim Miranda)'),
-    createData('L\'Emigrant', 'Amadeu Vives Roig (Director: Joaquim Garrigosa)'),
-    createData('Sota la vostra protecció', 'Ireneo Segarra (Director: Guifré Canadell)'),
+    createData('Jovenívola', 'Lluís Millet (Director: Joaquim Miranda)'),
+    createData('L\'Emigrant', 'Amadeu Vives Roig (Director: Guifré Canadell)'),
+    createData('Sota la vostra protecció', 'Ireneu Segarra (Director: Guifré Canadell)'),
 ];
 
 const Repertori = (props) => {
