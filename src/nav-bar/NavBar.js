@@ -17,8 +17,6 @@ import Logo from '../logo-cae-montserrat_white.svg';
 // import Logo from '../logo-cae-montserrat_nomes_logo.svg';
 import {useState} from "react";
 
-const urlForm = 'https://docs.google.com/forms/d/e/1FAIpQLSdpPIgZteiIjSit1B5jRcfALzFNqRcYxiKL2x84tAYi5-yjbg/viewform';
-
 const pages = ['Inici', 'Repertori', 'Assajos', 'Formulari'];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
@@ -41,7 +39,7 @@ const NavBar = (props) => {
         let pageToGo = pages.find(page => page === event.target.textContent);
 
         if (pageToGo === 'Formulari') {
-            window.open(urlForm, "_blank");
+            // window.open(urlForm, "_blank"); // because some people use adblockers we won't open the link directly
         }
 
         if (pageToGo === 'Inici') {
