@@ -38,10 +38,6 @@ const NavBar = (props) => {
 
         let pageToGo = pages.find(page => page === event.target.textContent);
 
-        if (pageToGo === 'Formulari') {
-            // window.open(urlForm, "_blank"); // because some people use adblockers we won't open the link directly
-        }
-
         if (pageToGo === 'Inici') {
             pageToGo = 'Dashboard';
         }
