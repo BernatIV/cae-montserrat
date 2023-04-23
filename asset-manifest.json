@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.70199338.css",
-    "main.js": "/static/js/main.bf786ee3.js",
+    "main.css": "/static/css/main.392c0f71.css",
+    "main.js": "/static/js/main.e0e886cf.js",
     "static/js/787.bdcc4e2c.chunk.js": "/static/js/787.bdcc4e2c.chunk.js",
     "static/media/Concert 100 anys neixament P. Ireneu3.jpg": "/static/media/Concert 100 anys neixament P. Ireneu3.d7169f0e234bc62a57d0.jpg",
+    "static/media/programa-75-aniversari.jpg": "/static/media/programa-75-aniversari.0d5315de725a4ccefeab.jpg",
+    "static/media/ressenya-historica.jpg": "/static/media/ressenya-historica.2cd25d1237c100935453.jpg",
     "static/media/roboto-all-500-normal.woff": "/static/media/roboto-all-500-normal.0ab669b7a0d19b178f57.woff",
     "static/media/roboto-all-700-normal.woff": "/static/media/roboto-all-700-normal.a457fde362a540fcadff.woff",
     "static/media/roboto-all-400-normal.woff": "/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
@@ -38,12 +40,12 @@
     "static/media/roboto-greek-ext-300-normal.woff2": "/static/media/roboto-greek-ext-300-normal.35b9d6be04b95f0f0530.woff2",
     "static/media/roboto-greek-ext-700-normal.woff2": "/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/index.html",
-    "main.70199338.css.map": "/static/css/main.70199338.css.map",
-    "main.bf786ee3.js.map": "/static/js/main.bf786ee3.js.map",
+    "main.392c0f71.css.map": "/static/css/main.392c0f71.css.map",
+    "main.e0e886cf.js.map": "/static/js/main.e0e886cf.js.map",
     "787.bdcc4e2c.chunk.js.map": "/static/js/787.bdcc4e2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70199338.css",
-    "static/js/main.bf786ee3.js"
+    "static/css/main.392c0f71.css",
+    "static/js/main.e0e886cf.js"
   ]
 }
