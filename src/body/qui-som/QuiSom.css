@@ -1,0 +1,139 @@
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute-qui-som {
+    position: absolute;
+
+    left: 0;
+    z-index: 1;
+}
+
+@media only screen and (min-width: 1250px) {
+    .title-large-screen {
+        font-size: 75px !important;
+    }
+
+    .position-absolute-qui-som {
+        top: 10%;
+    }
+
+    .image-background-historic {
+        max-width: 700px;
+        margin-top: 16px;
+        margin-left: 45%;
+    }
+
+    .qui-som-container {
+        min-height: 200vh;
+    }
+
+    .gradient-title {
+        background: linear-gradient(to right, #0C0A0F, transparent);
+
+        padding-top: 100px;
+        padding-left: 5%;
+        width: 700px;
+    }
+}
+
+@media only screen and (min-width: 1012px) and (max-width: 1250px) {
+    .title-large-screen {
+        font-size: 75px !important;
+    }
+
+    .position-absolute-qui-som {
+        top: 10%;
+    }
+
+    .image-background-historic {
+        max-width: 60%;
+        margin-top: 16px;
+        margin-right: 16px;
+        margin-left: 46%;
+    }
+
+    .qui-som-container {
+        min-height: 200vh;
+    }
+
+    .gradient-title {
+        background: linear-gradient(to right, #0C0A0F, transparent);
+
+        padding-top: 100px;
+        padding-left: 5%;
+        width: 700px;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1011px)  {
+    .title-large-screen {
+        font-size: 48px !important;
+    }
+
+    .position-absolute-qui-som {
+        top: 40%;
+    }
+
+    .image-background-historic {
+        height: auto;
+        left: 40%;
+    }
+
+    .qui-som-container {
+        min-height: 200vh;
+    }
+
+    .gradient-title {
+        background: linear-gradient(to top, #0C0A0F, transparent);
+        padding-top: 100px;
+        margin-top: 50px;
+        padding-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 800px)  {
+    .title-large-screen {
+        font-size: 48px !important;
+    }
+
+    .position-absolute-qui-som {
+        top: 15%;
+    }
+
+    .image-background-historic {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .qui-som-container {
+        min-height: 390vh;
+    }
+
+    .gradient-title {
+        background: linear-gradient(to top, #0C0A0F, transparent);
+        padding-top: 100px;
+        margin-top: 200px;
+        padding-left: 5%;
+    }
+}
+
+.gradient {
+    background: linear-gradient(to top, #0C0A0F, transparent);
+    padding-top: 100px;
+    padding-left: 5%;
+}
+
+.history-title {
+    color: white;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-description-qui-som {
+    color: #c5c5c5;
+    font-size: 24px;
+    text-align: left;
+    width: 80%;
+}

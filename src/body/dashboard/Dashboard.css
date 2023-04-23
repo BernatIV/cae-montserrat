@@ -9,8 +9,14 @@
 .position-absolute {
     position: absolute;
 
-    left: 0%;
+    left: 0;
     z-index: 1;
+}
+
+@media (min-width: 1644px) {
+    .div-size-dashboard {
+        height: 54vh;
+    }
 }
 
 @media (min-width: 1012px) {
@@ -21,15 +27,23 @@
     .position-absolute {
         top: 45%;
     }
+
+    .dashboard-height {
+        min-height: 150vh;
+    }
 }
 
-@media only screen and (min-width: 801px) and (max-width: 1011px)  {
+@media only screen and (min-width: 801px) and (max-width: 1012px)  {
     .title-large-screen {
         font-size: 48px !important;
     }
 
     .position-absolute {
         top: 40%;
+    }
+
+    .dashboard-height {
+        min-height: 110vh;
     }
 }
 
@@ -41,18 +55,16 @@
     .position-absolute {
         top: 15%;
     }
+
+    .dashboard-height {
+        min-height: 170vh;
+    }
 }
 
 .gradient {
     background: linear-gradient(to top, #0C0A0F, transparent);
-    /* use "to bottom" for a vertical gradient */
-    /* change the hex codes to your desired colors */
-    /* you can also use rgb or hsl color values */
-    /*color: white;*/
-    /* set the text color to contrast the gradient */
     padding-top: 100px;
     padding-left: 5%;
-    /* add padding to show the gradient */
 }
 
 .image-background {

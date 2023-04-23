@@ -1,12 +1,15 @@
 import './App.css';
-import Dashboard from "./dashboard/Dashboard";
+import Dashboard from "./body/dashboard/Dashboard";
 import NavBar from "./nav-bar/NavBar";
+import NavBar75Aniversari from "./nav-bar/NavBar75Aniversari";
 import {createTheme} from '@material-ui/core/styles';
 import {ThemeProvider} from "@mui/material/styles";
 import {useState} from "react";
-import Assajos from "./assajos/Assajos";
-import Repertori from "./repertori/Repertori";
-import Formulari from "./formulari/Formulari";
+import Assajos from "./body/75e-aniversari/assajos/Assajos";
+import Repertori from "./body/75e-aniversari/repertori/Repertori";
+import Formulari from "./body/75e-aniversari/formulari/Formulari";
+import QuiSom from "./body/qui-som/QuiSom";
+import Concert75e from "./body/75e-aniversari/concert-75e/Concert75e";
 
 // TODO
 // - La imagte de el repertori s'ha de fer més estreta. Perq sinó fa mal els ulls.
@@ -34,8 +37,15 @@ const theme = createTheme({
 
 function App() {
     const [currentTab, setCurrentTab] = useState('Dashboard');
+    const [is75Aniversari, setIs75Aniversari] = useState(false);
 
     const changeTabHandler = (tabId) => {
+        if (tabId === '75-aniversari') {
+            setIs75Aniversari(true);
+        } else if (tabId === 'QuiSom' || tabId === 'Dashboard') {
+            setIs75Aniversari(false);
+        }
+
         setCurrentTab(tabId)
     }
 
@@ -43,7 +53,10 @@ function App() {
         <ThemeProvider theme={theme}>
             <div className="app-container">
                 <NavBar onChangeTab={changeTabHandler}></NavBar>
+                {is75Aniversari && <NavBar75Aniversari onChangeTab={changeTabHandler}></NavBar75Aniversari>}
                 {currentTab === 'Dashboard' && <Dashboard></Dashboard>}
+                {currentTab === 'QuiSom' && <QuiSom></QuiSom>}
+                {currentTab === '75-aniversari' && <Concert75e></Concert75e>}
                 {currentTab === 'Assajos' && <Assajos></Assajos>}
                 {currentTab === 'Repertori' && <Repertori></Repertori>}
                 {currentTab === 'Formulari' && <Formulari></Formulari>}
