@@ -1,6 +1,6 @@
 import {
     AppBar,
-    Avatar,
+    // Avatar,
     Box,
     Button,
     Container,
@@ -8,7 +8,7 @@ import {
     Menu,
     MenuItem,
     Toolbar,
-    Tooltip,
+    // Tooltip,
     Typography
 } from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
@@ -17,7 +17,7 @@ import Logo from '../logo-cae-montserrat_white.svg';
 // import Logo from '../logo-cae-montserrat_nomes_logo.svg';
 import {useState} from "react";
 
-const pages = ['Inici', 'Qui som', '75è aniversari'];
+const pages = ['INICI', 'HISTÒRIA', 'DIRECTORS', 'CONCERTS', '75è ANIVERSARI', 'ENREGISTRAMENTS', 'CONTACTE'];
 // const pages = ['Inici', 'Repertori', 'Assajos', 'Formulari'];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
@@ -39,11 +39,11 @@ const NavBar = (props) => {
 
         let pageToGo = pages.find(page => page === event.target.textContent);
 
-        if (pageToGo === 'Inici') {
+        if (pageToGo === 'INICI') {
             pageToGo = 'Dashboard';
-        } else if (pageToGo === 'Qui som') {
+        } else if (pageToGo === 'HISTÒRIA') {
             pageToGo = 'QuiSom';
-        } else if (pageToGo === '75è aniversari') {
+        } else if (pageToGo === '75è ANIVERSARI') {
             pageToGo = '75-aniversari';
         }
 
@@ -65,6 +65,7 @@ const NavBar = (props) => {
         <AppBar position="static">
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
+                    {/* for mobiles */}
                     <Box sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }}
                          style={{cursor: "pointer"}}
                          onClick={handleChangeTabToDashboard}
@@ -113,6 +114,8 @@ const NavBar = (props) => {
                         </Menu>
                     </Box>
                     {/*<AdbIcon sx={{display: {xs: 'flex', md: 'none'}, mr: 1}}/>*/}
+
+                    {/* for medium or big screens */}
                     <Box sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }}
                          style={{cursor: "pointer"}}
                             onClick={handleChangeTabToDashboard}
@@ -146,7 +149,7 @@ const NavBar = (props) => {
                             <Button
                                 key={page}
                                 onClick={handleCloseNavMenu}
-                                sx={{my: 2, color: 'white', display: 'block'}}
+                                sx={{my: 2, color: 'white', display: 'block', textTransform: 'none'}}
                             >
                                 {page}
                             </Button>

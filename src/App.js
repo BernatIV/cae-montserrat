@@ -10,6 +10,10 @@ import Repertori from "./body/75e-aniversari/repertori/Repertori";
 import Formulari from "./body/75e-aniversari/formulari/Formulari";
 import QuiSom from "./body/qui-som/QuiSom";
 import Concert75e from "./body/75e-aniversari/concert-75e/Concert75e";
+import Directors from "./body/directors/Directors";
+import Concerts from "./body/concerts/Concerts";
+import Enregistraments from "./body/enregistraments/Enregistraments";
+import Contacte from "./body/contacte/Contacte";
 
 // TODO
 // - La imagte de el repertori s'ha de fer més estreta. Perq sinó fa mal els ulls.
@@ -42,7 +46,8 @@ function App() {
     const changeTabHandler = (tabId) => {
         if (tabId === '75-aniversari') {
             setIs75Aniversari(true);
-        } else if (tabId === 'QuiSom' || tabId === 'Dashboard') {
+        } else if (tabId === 'Dashboard' || tabId === 'QuiSom' || tabId === 'DIRECTORS' || tabId === 'CONCERTS' ||
+            tabId === 'ENREGISTRAMENTS' || tabId === 'CONTACTE') {
             setIs75Aniversari(false);
         }
 
@@ -52,14 +57,18 @@ function App() {
     return (
         <ThemeProvider theme={theme}>
             <div className="app-container">
-                <NavBar onChangeTab={changeTabHandler}></NavBar>
-                {is75Aniversari && <NavBar75Aniversari onChangeTab={changeTabHandler}></NavBar75Aniversari>}
-                {currentTab === 'Dashboard' && <Dashboard></Dashboard>}
-                {currentTab === 'QuiSom' && <QuiSom></QuiSom>}
-                {currentTab === '75-aniversari' && <Concert75e></Concert75e>}
-                {currentTab === 'Assajos' && <Assajos></Assajos>}
-                {currentTab === 'Repertori' && <Repertori></Repertori>}
-                {currentTab === 'Formulari' && <Formulari></Formulari>}
+                <NavBar onChangeTab={changeTabHandler} />
+                {is75Aniversari && <NavBar75Aniversari onChangeTab={changeTabHandler} />}
+                {currentTab === 'Dashboard' && <Dashboard />}
+                {currentTab === 'QuiSom' && <QuiSom />}
+                {currentTab === 'DIRECTORS' && <Directors />}
+                {currentTab === 'CONCERTS' && <Concerts />}
+                {currentTab === '75-aniversari' && <Concert75e />}
+                {currentTab === 'Assajos' && <Assajos />}
+                {currentTab === 'Repertori' && <Repertori />}
+                {currentTab === 'Formulari' && <Formulari />}
+                {currentTab === 'ENREGISTRAMENTS' && <Enregistraments />}
+                {currentTab === 'CONTACTE' && <Contacte />}
             </div>
         </ThemeProvider>
     )
