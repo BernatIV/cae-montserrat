@@ -1,9 +1,9 @@
-
+import './enregistraments.css';
 
 const Enregistraments = () => {
     return (
-        <section className="directors-container">
-            <p className="text-description-directors">Properament</p>
+        <section className="enregistraments-container">
+            <p className="text-description-enregistraments">Properament</p>
         </section>
     );
 }

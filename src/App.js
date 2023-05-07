@@ -14,6 +14,7 @@ import Directors from "./body/directors/Directors";
 import Concerts from "./body/concerts/Concerts";
 import Enregistraments from "./body/enregistraments/Enregistraments";
 import Contacte from "./body/contacte/Contacte";
+import Historia from "./body/historia/Historia";
 
 // TODO
 // - La imagte de el repertori s'ha de fer més estreta. Perq sinó fa mal els ulls.
@@ -46,8 +47,8 @@ function App() {
     const changeTabHandler = (tabId) => {
         if (tabId === '75-aniversari') {
             setIs75Aniversari(true);
-        } else if (tabId === 'Dashboard' || tabId === 'QuiSom' || tabId === 'DIRECTORS' || tabId === 'CONCERTS' ||
-            tabId === 'ENREGISTRAMENTS' || tabId === 'CONTACTE') {
+        } else if (tabId === 'Dashboard' || tabId === 'QuiSom' || tabId === 'HISTORIA' || tabId === 'DIRECTORS' ||
+            tabId === 'CONCERTS' || tabId === 'ENREGISTRAMENTS' || tabId === 'CONTACTE') {
             setIs75Aniversari(false);
         }
 
@@ -61,6 +62,7 @@ function App() {
                 {is75Aniversari && <NavBar75Aniversari onChangeTab={changeTabHandler} />}
                 {currentTab === 'Dashboard' && <Dashboard />}
                 {currentTab === 'QuiSom' && <QuiSom />}
+                {currentTab === 'HISTÒRIA' && <Historia />}
                 {currentTab === 'DIRECTORS' && <Directors />}
                 {currentTab === 'CONCERTS' && <Concerts />}
                 {currentTab === '75-aniversari' && <Concert75e />}

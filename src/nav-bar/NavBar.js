@@ -17,7 +17,7 @@ import Logo from '../logo-cae-montserrat_white.svg';
 // import Logo from '../logo-cae-montserrat_nomes_logo.svg';
 import {useState} from "react";
 
-const pages = ['INICI', 'HISTÒRIA', 'DIRECTORS', 'CONCERTS', '75è ANIVERSARI', 'ENREGISTRAMENTS', 'CONTACTE'];
+const pages = ['INICI', 'QUI SOM', 'HISTÒRIA', 'DIRECTORS', 'CONCERTS', '75è ANIVERSARI', 'ENREGISTRAMENTS', 'CONTACTE'];
 // const pages = ['Inici', 'Repertori', 'Assajos', 'Formulari'];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
@@ -41,7 +41,7 @@ const NavBar = (props) => {
 
         if (pageToGo === 'INICI') {
             pageToGo = 'Dashboard';
-        } else if (pageToGo === 'HISTÒRIA') {
+        } else if (pageToGo === 'QUI SOM') {
             pageToGo = 'QuiSom';
         } else if (pageToGo === '75è ANIVERSARI') {
             pageToGo = '75-aniversari';
