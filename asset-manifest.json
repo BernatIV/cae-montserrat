@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.3e169cc8.css",
-    "main.js": "/static/js/main.8b5a7726.js",
+    "main.css": "/static/css/main.1e37bdc5.css",
+    "main.js": "/static/js/main.207c5d5d.js",
     "static/js/787.bdcc4e2c.chunk.js": "/static/js/787.bdcc4e2c.chunk.js",
-    "static/media/Concert 100 anys neixament P. Ireneu3.jpg": "/static/media/Concert 100 anys neixament P. Ireneu3.d7169f0e234bc62a57d0.jpg",
+    "static/media/homePageImg.jpg": "/static/media/homePageImg.d7169f0e234bc62a57d0.jpg",
     "static/media/programa-75-aniversari.jpg": "/static/media/programa-75-aniversari.0d5315de725a4ccefeab.jpg",
     "static/media/ressenya-historica.jpg": "/static/media/ressenya-historica.2cd25d1237c100935453.jpg",
+    "static/media/16.Joan Maria Aragonès.jpg": "/static/media/16.Joan Maria Aragonès.5aa526a3b1af43ea63b7.jpg",
+    "static/media/18 -.bmp": "/static/media/18 -.70ba09f9cf0861e90fff.bmp",
+    "static/media/15.bmp": "/static/media/15.8e0bfa6541bf643b0418.bmp",
     "static/media/roboto-all-500-normal.woff": "/static/media/roboto-all-500-normal.0ab669b7a0d19b178f57.woff",
     "static/media/roboto-all-700-normal.woff": "/static/media/roboto-all-700-normal.a457fde362a540fcadff.woff",
     "static/media/roboto-all-400-normal.woff": "/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
     "static/media/roboto-all-300-normal.woff": "/static/media/roboto-all-300-normal.168d6383e73339293ac3.woff",
-    "static/media/logo-cae-montserrat_white.svg": "/static/media/logo-cae-montserrat_white.d1f9dd84922f6a22ba1be3fcc67e0add.svg",
+    "static/media/21 -.jpg": "/static/media/21 -.1b5a3999f2f4cdebe795.jpg",
+    "static/media/logoAppBar_white.svg": "/static/media/logoAppBar_white.d1f9dd84922f6a22ba1be3fcc67e0add.svg",
+    "static/media/17 -.jpg": "/static/media/17 -.349e948fa247cea9842b.jpg",
+    "static/media/14 -.jpg": "/static/media/14 -.896895d75d1f24d48e00.jpg",
+    "static/media/24 -.jpg": "/static/media/24 -.10bf051434daef292081.jpg",
+    "static/media/19.jpg": "/static/media/19.a965ff6d40652835935e.jpg",
     "static/media/roboto-latin-500-normal.woff2": "/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/static/media/roboto-latin-700-normal.227c93190fe7f82de3f8.woff2",
     "static/media/roboto-latin-400-normal.woff2": "/static/media/roboto-latin-400-normal.b009a76ad6afe4ebd301.woff2",
@@ -20,9 +28,12 @@
     "static/media/roboto-cyrillic-ext-500-normal.woff2": "/static/media/roboto-cyrillic-ext-500-normal.62ced72e5832f02c2796.woff2",
     "static/media/roboto-cyrillic-ext-700-normal.woff2": "/static/media/roboto-cyrillic-ext-700-normal.be4d02458ce53887dc37.woff2",
     "static/media/roboto-latin-ext-400-normal.woff2": "/static/media/roboto-latin-ext-400-normal.861b791f9de857a6e7bc.woff2",
+    "static/media/23 -.jpg": "/static/media/23 -.8050631db0ba135ba885.jpg",
     "static/media/roboto-latin-ext-700-normal.woff2": "/static/media/roboto-latin-ext-700-normal.ed67ad54b1a8f5d21150.woff2",
     "static/media/roboto-latin-ext-500-normal.woff2": "/static/media/roboto-latin-ext-500-normal.9165081d10e1ba601384.woff2",
     "static/media/roboto-latin-ext-300-normal.woff2": "/static/media/roboto-latin-ext-300-normal.dc7dcec8e3f654e0ed63.woff2",
+    "static/media/20 -.jpg": "/static/media/20 -.408de14a5d9fcdf9398e.jpg",
+    "static/media/22 -.jpg": "/static/media/22 -.e1936fc93a5e67d69a61.jpg",
     "static/media/roboto-cyrillic-500-normal.woff2": "/static/media/roboto-cyrillic-500-normal.cad7d3d9cb265e334e58.woff2",
     "static/media/roboto-cyrillic-700-normal.woff2": "/static/media/roboto-cyrillic-700-normal.d010f1f324e111a22e53.woff2",
     "static/media/roboto-cyrillic-400-normal.woff2": "/static/media/roboto-cyrillic-400-normal.71a33b6b50457b2c903a.woff2",
@@ -40,12 +51,12 @@
     "static/media/roboto-greek-ext-300-normal.woff2": "/static/media/roboto-greek-ext-300-normal.35b9d6be04b95f0f0530.woff2",
     "static/media/roboto-greek-ext-700-normal.woff2": "/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/index.html",
-    "main.3e169cc8.css.map": "/static/css/main.3e169cc8.css.map",
-    "main.8b5a7726.js.map": "/static/js/main.8b5a7726.js.map",
+    "main.1e37bdc5.css.map": "/static/css/main.1e37bdc5.css.map",
+    "main.207c5d5d.js.map": "/static/js/main.207c5d5d.js.map",
     "787.bdcc4e2c.chunk.js.map": "/static/js/787.bdcc4e2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e169cc8.css",
-    "static/js/main.8b5a7726.js"
+    "static/css/main.1e37bdc5.css",
+    "static/js/main.207c5d5d.js"
   ]
 }
