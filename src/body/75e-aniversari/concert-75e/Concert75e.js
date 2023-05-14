@@ -1,4 +1,4 @@
-import programaImg from "../../../programa-75-aniversari.jpg";
+import programaImg from "../../../assets/images/programa-75-aniversari.jpg";
 import './Concert75e.css';
 
 const Concert75e = () => {

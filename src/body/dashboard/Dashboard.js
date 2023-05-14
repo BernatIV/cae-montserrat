@@ -1,5 +1,5 @@
 import './Dashboard.css';
-import concert from '../../Concert 100 anys neixament P. Ireneu3.jpg';
+import concert from '../../assets/images/homePageImg.jpg';
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';

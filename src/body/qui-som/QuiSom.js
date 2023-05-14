@@ -1,4 +1,4 @@
-import fotoRessenyaHistorica from "../../ressenya-historica.jpg";
+import fotoRessenyaHistorica from "../../assets/images/ressenya-historica.jpg";
 import './QuiSom.css';
 
 const QuiSom = () => {

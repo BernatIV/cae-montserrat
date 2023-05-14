@@ -13,7 +13,7 @@ import {
 } from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 // import Logo from '../logo-cae-montserrat.jpeg';
-import Logo from '../logo-cae-montserrat_white.svg';
+import Logo from '../logoAppBar_white.svg';
 // import Logo from '../logo-cae-montserrat_nomes_logo.svg';
 import {useState} from "react";
 

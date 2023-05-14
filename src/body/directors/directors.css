@@ -1,13 +1,82 @@
-.text-description-directors {
-    color: #c5c5c5;
-    font-size: 24px;
-    text-align: left;
-    width: 80%;
-}
-
 .directors-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
+
+@media only screen and (min-width: 850px) {
+    .directors-container {
+        padding-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .directors-container {
+        padding-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .directors-container {
+        padding-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .directors-container {
+        padding-left: 0;
+    }
+}
+
+.text-description-directors {
+    color: #c5c5c5;
+    font-size: 24px;
+    text-align: left;
+
+    width: 80%;
+}
+
+.paper-container {
+    display: flex;
+    align-items: center;
+    left: 0;
+    background-color: aliceblue;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.img-conductor {
+    min-width: 1rem;
+    max-height: 20vh;
+}
+
+.div-paper {
+    border-radius: 4px;
+    box-shadow: 0 3px 1px -2px;
+}
+
+.paragraph-container {
+    margin: 1rem;
+    font-weight: 500;
+}
+
+/*.hidden {*/
+/*    opacity: 0;*/
+/*    transition: all 1s;*/
+/*}*/
+
+/*.show {*/
+/*    opacity: 1;*/
+/*    transition: opacity 0.5s ease-in-out;*/
+/*}*/
+
+/*@media(prefers-reduced-motion) {*/
+/*    .hidden {*/
+/*        transition: none;*/
+/*    }*/
+
+/*    .show {*/
+/*        transition: none;*/
+/*    }*/
+/*}*/
