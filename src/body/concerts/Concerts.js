@@ -39,7 +39,7 @@ const Concerts = () => {
                                     {/*secondaryTypographyProps={{color: 'red'}}>*/}
                                 </ListItemText>
                             </ListItem>
-                            <Divider className={styles.divider}/>
+                            <span className={styles.divider} />
                         </div>
                     ))}
             </List>

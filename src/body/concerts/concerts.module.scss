@@ -86,7 +86,10 @@
 }
 
 .divider {
+    display: block;
+    background: rgba(0, 0, 0, 0.12);
     width: 80%;
+    height: 1px;
     margin-top: 4px;
     margin-bottom: 4px;
 }
