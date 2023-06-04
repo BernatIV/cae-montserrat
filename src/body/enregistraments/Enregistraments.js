@@ -1,9 +1,9 @@
-import './enregistraments.css';
+import styles from './enregistraments.module.scss';
 
 const Enregistraments = () => {
     return (
-        <section className="enregistraments-container">
-            <p className="text-description-enregistraments">Properament</p>
+        <section className={styles.enregistramentsContainer}>
+            <p className={styles.text}>Properament</p>
         </section>
     );
 }

@@ -10,3 +10,6 @@ const Historia = () => {
     );
 }
 export default Historia;
+
+// js library for timeline
+// https://timeline.knightlab.com/

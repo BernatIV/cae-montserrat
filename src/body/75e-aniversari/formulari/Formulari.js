@@ -1,5 +1,5 @@
 import {Button, Stack} from "@mui/material";
-import {formUrl} from "../../../utils/Constants";
+import {formUrl} from "../../../utils/constants";
 
 const Formulari = () => {
 
