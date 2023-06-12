@@ -4,7 +4,7 @@ import NavBar from "./nav-bar/NavBar";
 import NavBar75Aniversari from "./nav-bar/NavBar75Aniversari";
 import {createTheme} from '@material-ui/core/styles';
 import {ThemeProvider} from "@mui/material/styles";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import Assajos from "./body/75e-aniversari/assajos/Assajos";
 import Repertori from "./body/75e-aniversari/repertori/Repertori";
 import Formulari from "./body/75e-aniversari/formulari/Formulari";
@@ -41,6 +41,10 @@ const theme = createTheme({
 });
 
 function App() {
+    useEffect(() => {
+        window.location.href = 'https://jordimanye.cat/';
+    }, []);
+
     const [currentTab, setCurrentTab] = useState('Dashboard');
     const [is75Aniversari, setIs75Aniversari] = useState(false);
 

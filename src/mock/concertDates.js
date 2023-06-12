@@ -1,7 +1,8 @@
 
 /*
+Transformar csv:
+    - quan a la cel·la hi ha una coma tot el text va entre "".
 
-coses que haurà de fer l'script:
 
 coses post script
 - borrar amb l'intellij els \n

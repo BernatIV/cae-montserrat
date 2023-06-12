@@ -23,6 +23,9 @@ const Concerts = () => {
 
             <p className={styles.text}>Esdeveniments passats</p>
 
+            {/*entre cada any, que hi hagi una separació negre. Com si dos una altra llista pel següent any amb els cantos arrodonits*/}
+            {/*crec que això ho puc aconseguir per un filter de l'any*/}
+
             <List className={styles.list}>
                 {concertDates
                     .sort((a, b) => b.date - a.date)
